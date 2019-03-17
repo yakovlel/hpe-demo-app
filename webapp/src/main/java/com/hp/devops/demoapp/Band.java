@@ -23,10 +23,10 @@ public class Band {
 		if (Math.random()   >= 0.5) {//                                                                                                                       v         2
 			throw new IllegalMonitorStateException("this is     a random exception");//                                                                     v          2
 		} //     																		                                                                    v            2
-		System.out.println("b and ");//   										                                                                          v           1
-		if (json.has("id"))  {//                                                                                                                          v     1
-			id = json.getInt("id");//                                                                                                                     v        1
-			if (json.has("name")) name =  json.getString("name");//                                                                                     v  1
+		System.out.println("b and ");//   										                                                                           v           1
+		if (json.has("id"))  {//                                                                                                                           v     1
+			id = json.getInt("id");//                                                                                                                       v        1
+			if (json.has("name")) name =  json.getString("name");//                                                                                       v  1
 			if (json.has("logo")) logo =  json.getString("logo");//                                                                                        v    1
 			if (json.has("song")) song =  json.getString("song");//                                                                                   v
 			if (json.has("votes")) votes  = json.getInt("votes");//                                                                                    v  1
