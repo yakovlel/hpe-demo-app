@@ -12,7 +12,7 @@ import java.security.InvalidParameterException;
  * To change this templa te use File   | Settings | File Templates.
  * te st
  */
-public class 123Band {
+public class Band {
 	 public int id;
 	 public String name =  "1  1";
 	 public String logo =  "";
