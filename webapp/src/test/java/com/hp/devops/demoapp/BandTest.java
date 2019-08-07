@@ -19,9 +19,14 @@ import java.security.InvalidParameterException;
 public class BandTest {
 	//private String NON_RELATED;
 	private JSONObject test;
+	private int counter = 0;
 
 	@Before
 	public void beforeEach() {
+		counter++;
+		if (counter % 2 == 0) {
+			Assert.assertEquals(true, false);
+		}
 		test = new JSONObject();
 		test.put("id", 1);
 		test.put("name", "Name");
