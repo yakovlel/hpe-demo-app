@@ -19,8 +19,11 @@ public class BandTest {
 	private static int counter = 0;
 
 	@BeforeClass
-	public void beforeEach() {
+	public static void beforeAll() {
 		Assert.assertEquals(true, false);
+	}
+	@Before
+	public void beforeEach() {
 		test = new JSONObject();
 		test.put("id", 1);
 		test.put("name", "Name");
