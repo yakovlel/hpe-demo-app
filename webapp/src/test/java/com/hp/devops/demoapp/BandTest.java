@@ -1,10 +1,7 @@
 package com.hp.devops.demoapp;
 
 import org.json.JSONObject;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.*;
 
 import java.security.InvalidParameterException;
 
@@ -21,13 +18,9 @@ public class BandTest {
 	private JSONObject test;
 	private static int counter = 0;
 
-	@Before
+	@BeforeClass
 	public void beforeEach() {
-		System.out.println("counter = " + counter);
-		counter++;
-		if (counter % 2 == 0) {
-			Assert.assertEquals(true, false);
-		}
+		Assert.assertEquals(true, false);
 		test = new JSONObject();
 		test.put("id", 1);
 		test.put("name", "Name");
