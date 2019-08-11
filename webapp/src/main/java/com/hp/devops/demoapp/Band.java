@@ -34,7 +34,7 @@ public class Band {
 			throw new InvalidParameterException("json must have an id property");//                                              v           2
 		}//                                                                                                                          v          2
 	}//                                                                                                                                      v          2
-   //           s
+   //             s
  	 	/**
 	 * for testing blame committer feature
 	 */
