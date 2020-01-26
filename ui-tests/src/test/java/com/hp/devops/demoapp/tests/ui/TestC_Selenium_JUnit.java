@@ -48,6 +48,7 @@ public class TestC_Selenium_JUnit {
             Assert.assertEquals(query.getTagName(), "body");
         }
         Assert.assertEquals(query.isDisplayed(), true);
+        
     }
 
     @Category(SpecialTests.class)
