@@ -66,6 +66,12 @@ public class TestA_Selenium_JUnit {
         System.out.println("Proudly  running test " + Thread.currentThread().getStackTrace()[1]);
         Assert.assertTrue(true);
     }
+    
+    @Test
+	public void testUIcaseAlwaysFail() {
+		System.out.println("new hint [[DataManager]]");
+		Assert.assertTrue(false);
+	}
 
     @AfterClass
     static public void afterAll() {
