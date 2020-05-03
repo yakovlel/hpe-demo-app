@@ -126,8 +126,7 @@ public class TestA {
     
     @Test
 	public void testUIcaseAlwaysFailWithHint() {
-		System.out.println("[[DataManager]]");
-		Assert.assertTrue(false);
+		Assert.assertTrue("[[DataManager]]", false);
 	}
 
     @AfterClass
