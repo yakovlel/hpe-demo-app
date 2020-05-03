@@ -20,6 +20,7 @@ public class DataManagerTest {
 	public void dataManagerTestA() {
 		try {
 			DataManager.init(null);
+			System.out.println("[[DataManager]]")
 			Assert.fail("the flow MUST have been fallen before");
 		} catch (Exception e) {
 			Assert.assertEquals(e.getClass(), InvalidParameterException.class);
