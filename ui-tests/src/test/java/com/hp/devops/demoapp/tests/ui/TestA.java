@@ -103,7 +103,7 @@ public class TestA {
             query = driver.findElement(By.id("jenkins"));
             Assert.assertEquals(query.getTagName(), "body");
         }
-        Assert.assertEquals(query.isDisplayed(), true);
+        Assert.assertEquals("[[Calcs]]", false, true);
     }
 
     
