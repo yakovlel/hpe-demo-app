@@ -3,7 +3,7 @@ package test;
 import java.util.Random;
 
 /**nfdfdfgfgf
- * Created by touch     2/2016
+ * Created by touch      2/2016
  * Testing hotspots widget by Raluca
  */
 
