@@ -14,5 +14,12 @@ public class TestD {
 		System.out.println("Proudly  running test " + Thread.currentThread().getStackTrace()[1]);
 		Assert.assertTrue(true);
 	}
+	
+	
+	@Test
+	public void testUIcaseAlwaysFail() {
+		System.out.println("DataManager");
+		Assert.assertTrue(false);
+	}
 }
 
