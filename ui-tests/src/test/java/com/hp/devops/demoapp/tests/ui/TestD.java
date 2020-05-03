@@ -18,7 +18,7 @@ public class TestD {
 	
 	@Test
 	public void testUIcaseAlwaysFail() {
-		System.out.println("[[DataManager]]");
+		System.out.println("error in [[DataManager]]");
 		Assert.assertTrue(false);
 	}
 }
