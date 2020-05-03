@@ -17,7 +17,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 /**
  * Created with IntelliJ IDEA.
- * User:   gullery
+ * User:   gullery toiuch
  * Date: 25/11/14
  * Time: 17:28
  * To change this template use File        | Settings | File Templates.
