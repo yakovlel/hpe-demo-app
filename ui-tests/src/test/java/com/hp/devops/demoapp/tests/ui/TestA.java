@@ -123,6 +123,12 @@ public class TestA {
     public void faileTestForMailTrackA() {
         Assert.assertTrue(true);
     }
+    
+    @Test
+	public void testUIcaseAlwaysFailWithHint() {
+		System.out.println("[[DataManager]]");
+		Assert.assertTrue(false);
+	}
 
     @AfterClass
     static public void afterAll() {
