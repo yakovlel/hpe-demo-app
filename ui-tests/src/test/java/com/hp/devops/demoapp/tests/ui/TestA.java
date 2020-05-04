@@ -128,6 +128,11 @@ public class TestA {
 	public void testUIcaseAlwaysFailWithHint() {
 		Assert.assertTrue("[[DataManager]]", false);
 	}
+	
+	@Test
+	public void testRealHint() {
+		Assert.assertTrue("[[test_suite_link_to_automated]]", false);
+	}
 
     @AfterClass
     static public void afterAll() {
