@@ -3,7 +3,7 @@ node {
 
     stage 'test'    
     sh 'make test'
-
-    stage 'publish'
+ 
+    stage 'publish' 
     sh 'make publish'
 }
