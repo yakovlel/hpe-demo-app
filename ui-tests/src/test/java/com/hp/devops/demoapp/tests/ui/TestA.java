@@ -133,6 +133,11 @@ public class TestA {
 	public void testRealHint() {
 		Assert.assertTrue("[[test_suite_link_to_automated]]", false);
 	}
+	
+	@Test
+	public void testRealHint2() {
+		Assert.assertTrue("[[test_suite_link_to_automated]]", false);
+	}
 
     @AfterClass
     static public void afterAll() {
