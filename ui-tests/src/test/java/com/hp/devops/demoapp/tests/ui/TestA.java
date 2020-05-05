@@ -135,7 +135,7 @@ public class TestA {
 	}
 	
 	@Test
-	public void testRealHint2() {
+	public void testRealHintWithExtension() {
 		Assert.assertTrue("[[test_suite_link_to_automated*xml]]", false);
 	}
 
