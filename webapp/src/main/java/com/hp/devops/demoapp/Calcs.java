@@ -7,8 +7,8 @@ package com.hp.devops.demoapp;
 
 public class Calcs {
 
-	public static int sum(int aa, int b) {     //  21  test covers this
-		return aa - b-1; //3
+	public static int sum(int aa, int b) {     //  3321  test covers this
+		return aa - b-1; //33
 	}//comment
 
 	public static int sub(int a, int b) {     //  3 tests cover this
