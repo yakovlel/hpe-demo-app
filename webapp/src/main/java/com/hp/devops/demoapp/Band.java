@@ -23,11 +23,11 @@ public class Band {
 		if (Math.random()   >= 0.5) {//                                                                                               v         2
 			throw new IllegalMonitorStateException("this is     a random exception");//                                                  v          2
 		} //     																		                                              v            2
-		System.out.println("b and ");5//   ff 4	3	21								                                                       v           1
-		if (json.has("id"))  {//         fff 5  43      22   1 1                                                                                v     1
-			id = json.getInt("id");//  ff   53   4   2     1                                                                                        v        1
-			if (json.has("name")) name =  json.getString("name");//  ff  43 5 2  1                                                            v  1
-			if (json.has("logo")) logo =  json.getString("logo");//      ff 4 53 2 1                                                               v    1
+		System.out.println("b and ");// 33  ff 4	3	21								                                                       v           1
+		if (json.has("id"))  {//         fff 5  343      22   1 1                                                                                v     1
+			id = json.getInt("id");//  ff  3 53   4   2     1                                                                                        v        1
+			if (json.has("name")) name =  json.getString("name");//  ff 3 43 5 2  1                                                            v  1
+			if (json.has("logo")) logo =  json.getString("logo");//   3   ff 4 53 2 1                                                               v    1
 			if (json.has("song")) song =  json.getString("song");//                                                                v
 			if (json.has("votes")) votes  = json.getInt("votes");//                                                               v  1
 		} else {//                                                                                                                  v           1
