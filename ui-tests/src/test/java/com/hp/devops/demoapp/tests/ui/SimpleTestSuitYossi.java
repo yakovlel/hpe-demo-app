@@ -14,7 +14,7 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 
-public class  SimpleTestSuit {
+public class  SimpleTestSuitYossi {
 
     static final boolean isMusicApp = false;
 
