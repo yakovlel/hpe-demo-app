@@ -22,7 +22,7 @@ import org.testng.annotations.Test;
  * Testing hotspot widget by Ralu test test1
  */
 //Xander Random change for commit.
-public class TestSuitA {
+public class TestSuiteA {
 
     final static private boolean isMusicApp = false;
 
