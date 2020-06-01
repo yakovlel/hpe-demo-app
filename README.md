@@ -6,5 +6,5 @@ s
 s
 ss
 s
-s
+stt
 ss
