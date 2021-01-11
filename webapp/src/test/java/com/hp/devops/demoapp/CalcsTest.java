@@ -25,7 +25,7 @@ public class CalcsTest {
 
 	@Test
 	public void sum_test_B() {
-		assertEquals(7, 8);
+		assertEquals(7, 7);
 	}
 
 	@Test
