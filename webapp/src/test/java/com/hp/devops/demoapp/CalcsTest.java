@@ -30,7 +30,7 @@ public class CalcsTest {
 
 	@Test
 	public void sub_test_A() {
-		assertEquals(3, 3);
+		assertEquals(3, 4);
 	}
 
 	@Test
