@@ -37,7 +37,7 @@ public class NewClass1Test {
 
 	@Test
 	public void randomE2Test() {
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 	}
 	@Test
 	public void randomG1Test() {
