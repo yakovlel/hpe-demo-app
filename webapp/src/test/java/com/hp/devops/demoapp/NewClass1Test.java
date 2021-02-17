@@ -37,12 +37,7 @@ public class NewClass1Test {
 
 	@Test
 	public void randomE2Test() {
-		if (randomNumber == 1) {
-			NewClass1 myClass = new NewClass1();
-			myClass.methodThatThrowsException(); // null pointer
-		} else {
-			Assert.assertEquals(true, true);
-		}
+		Assert.assertEquals(true, false);
 	}
 	@Test
 	public void randomG1Test() {
