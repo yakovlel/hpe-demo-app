@@ -73,7 +73,11 @@ public class ExperimentsTest {
 	}
 	@Test
 	public void randomD1Test() {
-		Assert.assertEquals(true, false)
+		if (randomNumber == 4) {
+			throw new IllegalMonitorStateException("this is a random exception");
+		} else {
+			Assert.assertEquals(true, true);
+		}
 	}
 	@Test
 	public void randomD2Test() {
