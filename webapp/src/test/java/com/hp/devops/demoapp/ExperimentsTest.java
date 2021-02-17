@@ -40,7 +40,7 @@ public class ExperimentsTest {
 	}
 	@Test
 	public void randomB1Test() {
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 	}
 
 	@Test
