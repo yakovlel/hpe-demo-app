@@ -40,11 +40,7 @@ public class ExperimentsTest {
 	}
 	@Test
 	public void randomB1Test() {
-		if (randomNumber == 2) {
-			throw new IllegalMonitorStateException("this is a random exception");
-		} else {
-			Assert.assertEquals(true, true);
-		}
+		Assert.assertEquals(true, false);
 	}
 
 	@Test
